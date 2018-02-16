@@ -1,0 +1,163 @@
+/* ------------------ Responsivity --------------------*/
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+
+    .small-container {
+        padding: 0 6%;
+    }
+}
+
+/* ------------------ Header, footer --------------------*/
+nav ul a,
+nav .brand-logo {
+    color: white;
+    font-size: 1.3rem;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav .brand-logo img {
+    width: 170px;
+    position: absolute;
+    top: -25px;
+    left: -85px;
+}
+
+nav {
+    background-color: #b1040e;
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    outline-offset: -4px;
+}
+
+nav ul a.active {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+footer.page-footer {
+    margin: 0;
+    background-color: #8c1515;
+    color: white;
+}
+
+footer p {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+/* ------------------ Fonts --------------------*/
+body {
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #000;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.8em;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 800;
+    letter-spacing: -.5px;
+}
+
+h5 {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #820000;
+}
+
+h6 {
+    font-size: 15px;
+    line-height: 1.8em;
+}
+
+/* ------------------ Spacing --------------------*/
+.small-container {
+    padding: 0 3%;
+}
+
+.col-spacing .row .col {
+    padding: 0 2rem;
+}
+
+.row-spacing div {
+    padding-bottom: 2%;
+}
+
+.section {
+    padding: 3% 0;
+}
+
+/* ------------------ Images, Icons --------------------*/
+.section-image {
+    width: 80%;
+    opacity: .9;
+}
+
+.logos img {
+    width: 50%;
+}
+
+i {
+    color: #820000;
+}
+
+/* ------------------ Backgrounds --------------------*/
+.dark-coffee-background {
+    background-color: #f9f6ef;
+}
+
+.white-coffee-background {
+    background-color: #fefdfb;
+}
+
+.dark-background {
+    background-color: #544948;
+}
+
+.parallax-container {
+    width: 100%;
+}
+
+/* ------------------ Card --------------------*/
+.card {
+    width: 90%;
+}
+
+/* ------------------ Form --------------------*/
+.btn, .btn-large {
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1);
+    background-color: #b1040e;
+    color: #fff;
+    font-weight: 600;
+    text-transform: none;
+    width: 130px;
+}
+
+.btn:hover, btn:active {
+    background-color: #820000;
+    color: #fff;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #b1040e !important;
+    font-weight: 900;
+}
